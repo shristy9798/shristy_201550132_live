@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+  <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <div id="LOGO">
+                <span>W</span>SHIPPING
+ 
+            </div>
+            <nav>
+               <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Tracking</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            </nav>
+
+        </header>
+        <h1>OUR SERVICES</h1>
+        <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo at adipisci dolorem ratione explicabo sint ea est fuga cupiditate odio!</h6>
+        <section id="sec1">
+            <div  id="s1" class="box"></div>
+            <div  id="s2" class="box"></div>
+            <div  id= "s3" class="box"></div>
+
+        </section>
+        
+<footer>
+    <div class="foot">
+        <div class="Dyn">
+            <h2 id="sname">[Student name]</h2>
+        </div>
+        <div class="Dyn">
+            <h2 id="rollno">[University rolno]</h2>
+        </div>
+        <div class="Dyn">
+            <h2>Gla University, Mathura</h2>
+        </div>
+        <div class="Dyn">
+            <h2><p id="date"></p></h2>
+        </div>
+   </div>
+</footer>
+</div>
+
+
+<script>
+    var today = new Date();
+    var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+    document.getElementById("date").innerHTML = date;
+    document.getElementById("sname").innerText = "Ritik Bhargava";
+    document.getElementById("rollno").innerText = "201550116";
+
+    
+    </script>
+</body>
+</html>
